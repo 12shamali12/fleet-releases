@@ -1,0 +1,20 @@
+{
+  "name": "Fleet",
+  "identifier": "com.shamali.fleet.source",
+  "sourceURL": "https://raw.githubusercontent.com/12shamali12/fleet-releases/main/apps.json",
+  "apps": [
+    {
+      "name": "Fleet",
+      "bundleIdentifier": "dev.fleet.app",
+      "developerName": "Shamali",
+      "version": "0.1.263",
+      "versionDate": "2026-08-30T14:48:03Z",
+      "versionDescription": "Pairing takes a password you set once instead of a six-digit code you had to be at the laptop to generate — twelve characters, hashed, and it works from anywhere the daemon answers.\n\nThe Answer screen is the tab the app opens on now, and it shows the session's own transcript rather than a one-line summary: the last few turns in the session's own face, with the question at reading size and the replies as full-width rows instead of chips that wrapped.\n\nThe app also loads its screens from your laptop from now on, so a change to the interface arrives when you open the app instead of needing a new build. It still keeps the last board when the laptop is off.",
+      "size": 761531,
+      "localizedDescription": "One console for every Claude Code session on your machine. Fleet reads what the CLI already wrote down and shows you which sessions are blocked, what they asked, and lets you answer from your phone. It talks to your own laptop and nothing else — no account, no cloud.",
+      "iconURL": "https://raw.githubusercontent.com/12shamali12/fleet-releases/main/icon.png",
+      "tintColor": "F78A7C",
+      "downloadURL": "https://github.com/12shamali12/fleet-releases/releases/download/v0.1.263/fleet.ipa"
+    }
+  ]
+}
