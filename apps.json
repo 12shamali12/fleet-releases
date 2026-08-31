@@ -7,14 +7,14 @@
       "name": "Fleet",
       "bundleIdentifier": "dev.fleet.app",
       "developerName": "Shamali",
-      "version": "0.1.263",
-      "versionDate": "2026-08-30T14:48:03Z",
-      "versionDescription": "Pairing takes a password you set once instead of a six-digit code you had to be at the laptop to generate — twelve characters, hashed, and it works from anywhere the daemon answers.\n\nThe Answer screen is the tab the app opens on now, and it shows the session's own transcript rather than a one-line summary: the last few turns in the session's own face, with the question at reading size and the replies as full-width rows instead of chips that wrapped.\n\nThe app also loads its screens from your laptop from now on, so a change to the interface arrives when you open the app instead of needing a new build. It still keeps the last board when the laptop is off.",
-      "size": 761531,
+      "version": "0.1.276",
+      "versionDate": "2026-08-31T20:17:53.502Z",
+      "versionDescription": "Pairing now knows the difference between a laptop that is asleep and one that simply has no password set.\n\nThose were the same thing to the app before, so with the laptop off it showed the six-digit code door — a field, a placeholder and a confident button — on a daemon that has had a password for a week. It now says which of the three it is: finding your laptop, waiting for your laptop, or ready to unlock. It also remembers which door this daemon has, so it opens on the right one instead of guessing.\n\nThe screen carries Fleet’s own mark for the first time: the board’s four lanes, in the four colours the board paints them, each beside the word it means. And the button is no longer the alert colour, so a refused password is finally the only red thing on the screen.",
+      "size": 764682,
       "localizedDescription": "One console for every Claude Code session on your machine. Fleet reads what the CLI already wrote down and shows you which sessions are blocked, what they asked, and lets you answer from your phone. It talks to your own laptop and nothing else — no account, no cloud.",
       "iconURL": "https://raw.githubusercontent.com/12shamali12/fleet-releases/main/icon.png",
       "tintColor": "F78A7C",
-      "downloadURL": "https://github.com/12shamali12/fleet-releases/releases/download/v0.1.263/fleet.ipa"
+      "downloadURL": "https://github.com/12shamali12/fleet-releases/releases/download/v0.1.276/fleet.ipa"
     }
   ]
 }
