@@ -7,14 +7,14 @@
       "name": "Fleet",
       "bundleIdentifier": "dev.fleet.app",
       "developerName": "Shamali",
-      "version": "0.1.293",
-      "versionDate": "2026-08-31T22:11:20.864Z",
+      "version": "0.1.295",
+      "versionDate": "2026-09-01T10:02:46.994Z",
       "versionDescription": "A conversation view. Open a session and tap \"Open the conversation\": the whole thread, the session speaking in its own face and you in prose, with the box pinned under it.\n\nA message you send says \"queued — not delivered yet\" until the transcript reports it back. On a phone a bubble on the right usually means it arrived; here it means Fleet accepted it, and those are not the same thing. A session Fleet cannot write to gets no box at all, just the reason.\n\nThe box now clears the keyboard instead of sitting under it, tapping something no longer double-flashes, the status bar follows the theme you picked rather than the phone’s, and three controls that were under the 44px floor — Done on every card, the link tabs, the daily-summary switch — are not any more.\n\nThe Feed can also say it failed. It used to report \"nothing has happened\" about a log it had never managed to read.",
-      "size": 772782,
+      "size": 772780,
       "localizedDescription": "One console for every Claude Code session on your machine. Fleet reads what the CLI already wrote down and shows you which sessions are blocked, what they asked, and lets you answer from your phone. It talks to your own laptop and nothing else — no account, no cloud.",
       "iconURL": "https://raw.githubusercontent.com/12shamali12/fleet-releases/main/icon.png",
       "tintColor": "F78A7C",
-      "downloadURL": "https://github.com/12shamali12/fleet-releases/releases/download/v0.1.293/fleet.ipa"
+      "downloadURL": "https://github.com/12shamali12/fleet-releases/releases/download/v0.1.295/fleet.ipa"
     }
   ]
 }
